@@ -1,0 +1,10 @@
+source 'http://rubygems.org' do
+  gem 'allure-cucumber'
+  gem 'cpf_faker'
+  gem 'cucumber'
+  gem 'faker'
+  gem 'httparty'
+  gem 'rspec'
+  gem 'securerandom'
+  gem 'capybara'
+end 
