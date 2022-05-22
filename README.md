@@ -18,13 +18,7 @@ https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/#a
 Após obter a key e token, insira esses dados no arquivo "credentials.yml" na pasta "features\support\config\"
 O arquivo deve ficar desta forma com os dados da key e token:
 
-
-credentials:
-  key: 674vab8ad9545cf0545a378243d37gf8
-  token: d941adef6h651b4cde68dd472cd8316bb10c7e87f3f6a8c5dc2d4da2c11931bd
-  key-invalida: 321
-  token-invalido: 123
-
+![image](https://user-images.githubusercontent.com/95726001/169714021-53112ce8-3314-4a04-a560-9d5f8d9866c0.png)
 ------------------------------------------------------------------------------------------
 
 Para evitar problema com dependêcias na primeira execução do projeto, apague o arquivo Gemfile.lock, acesse a pasta do projeto pelo terminal e execute "bundler install"
