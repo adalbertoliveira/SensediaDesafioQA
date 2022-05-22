@@ -7,6 +7,6 @@ require 'rspec'
 require 'securerandom'
 require 'capybara'
 
-HTTP_LOG = ENV['HTTP_LOG']
+CREDENTIALS = YAML.load_file("features/support/config/credentials.yml")
 PAYLOAD_PATH = YAML.load_file("features/support/config/payload_path.yml")
 CONFIG_API = YAML.load_file("features/support/config/environment.yml")

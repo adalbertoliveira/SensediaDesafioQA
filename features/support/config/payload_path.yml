@@ -1,4 +1,3 @@
 trello:
   post_card:   "features/support/payload/post_card.json"
   put_card:    "features/support/payload/put_card.json"
-  credentials: "features/support/payload/credentials.json"

@@ -1,8 +1,8 @@
 ###################################################### Key e Token ######################################################
 Dado('obter key e token trello') do
-  @response = YAML.load_file(PAYLOAD_PATH['trello']['credentials']) # carregando o json das credenciais
-  @token = @response['token'] # armazenando o token do json na variável
-  @key = @response['key']   # armazenando a key do json na variável
+  @response = CREDENTIALS['credentials'] # carregando os dados das credenciais
+  @token = @response['token'] # armazenando o token na variável
+  @key = @response['key']   # armazenando a key na variável
 end
 ###################################################### Key e Token ######################################################
 Quando('envio uma requisição GET para o endpoint boards') do
