@@ -8,8 +8,8 @@ After do |scenario|
   elsif scenario.passed?
     if @response.body != nil
       #log "Request body: #{@response.request.options[:body]}"
-      log "Response body: #{@response.body}"
-      log "Response URI: #{@response.request.last_uri}"
+      #log "Response body: #{@response.body}"
+      #log "Response URI: #{@response.request.last_uri}"
       log "Response code: #{@response.code}"
     end
   end
